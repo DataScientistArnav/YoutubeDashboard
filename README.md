@@ -20,7 +20,7 @@ This project involves collecting, preprocessing, and visualizing YouTube video d
 4. **Video Details Table:**
    - A comprehensive table containing detailed information about each video, including title, views, likes, comments, duration, published date, and time.
 
-[Watch the full video interaction](https://youtu.be/your_video_link)
+[Watch the full video interaction](Youtube.mp4)
 
 ## Data Collection and Preprocessing
 
@@ -66,22 +66,26 @@ The data collection and preprocessing are handled using Python scripts. The foll
    ```bash
    git clone https://github.com/DataScientistArnav/YoutubeDashboard.git
    cd YoutubeDashboard
+   
 2. **Configure MySQL Database:**
+
    Update the config.py file with your MySQL database credentials and YouTube API key.
+  
 3. **Open Power BI Dashboard:**
-  -Open YouTube.pbix in Power BI Desktop.
-  -Refresh the data to load the latest CSV file.
+   - Open YouTube.pbix in Power BI Desktop.
+   - Refresh the data to load the latest CSV file.
 ### Dashboard Overview
+
 The Power BI dashboard provides the following insights:
 
-Scatter Plot (Views vs Likes and Comments): Analyzes the relationship between views, likes, and comments.
-Pie Chart (Video by Category): Shows the distribution of videos across different categories.
-Bar Graph (Views by Category): Displays the total views for each video category.
-Table (Video Details): Contains detailed information about each video.
+- Scatter Plot (Views vs Likes and Comments): Analyzes the relationship between views, likes, and comments.
+- Pie Chart (Video by Category): Shows the distribution of videos across different categories.
+- Bar Graph (Views by Category): Displays the total views for each video category.
+- Table (Video Details): Contains detailed information about each video.
 
 ### License
 This project is licensed under the MIT License.
 
 ### Acknowledgments
-YouTube Data API
-Power BI
+- YouTube Data API
+- Power BI
