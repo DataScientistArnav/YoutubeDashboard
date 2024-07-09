@@ -1,5 +1,5 @@
 # YouTube API key
-API_KEY = 'AIzaSyC6GtYINJN4ELMAQDNQwqQoVh4QwJIhC9o'
+API_KEY = 'YoutubeAPI_KEY'
 
 # Database configuration
 DB_USER = 'root'
