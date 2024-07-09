@@ -4,12 +4,11 @@
 
 This project involves collecting, preprocessing, and visualizing YouTube video data. The data is collected using the YouTube Data API, stored in a MySQL database, and then visualized using Power BI. The dashboard provides insights into various metrics such as views, likes, comments, and video categories.
 
-[Watch the Dashboard Interaction Video](assets/dashboard_interaction.mp4)
 
 ## Dashboard Features
 
 1. **Views vs Likes and Comments:**
-   - Scatter plot showing the relationship between views, likes, and comments for each video.
+   - Line graph showing the relationship between views, likes, and comments for each video.
 
 2. **Video by Category (Pie Chart):**
    - Pie chart displaying the distribution of videos across different categories.
@@ -20,7 +19,7 @@ This project involves collecting, preprocessing, and visualizing YouTube video d
 4. **Video Details Table:**
    - A comprehensive table containing detailed information about each video, including title, views, likes, comments, duration, published date, and time.
 
-[Watch the full video interaction](Youtube.mp4)
+![Dashboard Interaction](Youtube.gif)
 
 ## Data Collection and Preprocessing
 
@@ -40,17 +39,15 @@ The data collection and preprocessing are handled using Python scripts. The foll
 
 ## Project Structure
 
-- **python_code/**: Contains Python scripts for data collection and preprocessing.
-  - `fetch_youtube_data.py`: Fetches YouTube video data and stores it in the MySQL database.
-  - `fetch_youtube_categories.py`: Fetches YouTube video categories and stores them in the MySQL database.
-  - `export_to_csv.py`: Exports the processed data from the MySQL database to a CSV file.
-  - `update_csv_file.py`: Cleans the CSV file and prepares it for visualization.
+- **Data Collection.ipyb**: Contains Python scripts for data collection and preprocessing.
+  - Fetches YouTube video data and stores it in the MySQL database.
+  - Fetches YouTube video categories and stores them in the MySQL database.
+  - Exports the processed data from the MySQL database to a CSV file.
+  - Cleans the CSV file and prepares it for visualization.
 
-- **dashboard/**: Contains the Power BI dashboard file.
-  - `YouTube_Analytics_Dashboard.pbix`: Power BI dashboard file.
+- **YouTube.pbix**:Power BI dashboard file.
 
-- **data/**: Contains the exported CSV file.
-  - `youtube_videos_with_categories.csv`: CSV file with processed YouTube video data.
+- **youtube_videos_with_categories.csv**: CSV file with processed YouTube video data.
 
 ## Usage
 
